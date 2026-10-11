@@ -1,0 +1,60 @@
+# ==============================================================================
+# Git Ignore Rules for VR Course Project / Visual Odometry
+# ==============================================================================
+
+# Datasets and Database Folders
+datasets/
+dataset/
+data/
+*/datasets/
+*/dataset/
+*/data/
+
+# Specific Dataset Types and Raw Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+
+# Raw Sensor & Binary Data Formats
+*.bag
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.pcd
+*.ply
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.mdb
+*.rdb
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and IDE Artifacts
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
